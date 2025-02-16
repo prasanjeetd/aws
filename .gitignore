@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# Optional: log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Terraform files
+.terraform/             # Terraform working directory
+terraform.tfstate       # Terraform state file
+terraform.tfstate.backup  # Backup of Terraform state file
+.terraform.lock.hcl     # Provider dependency lock file (Terraform 0.14+)
+
+# Sensitive variable files (if you store secrets here, consider excluding them)
+*.tfvars
